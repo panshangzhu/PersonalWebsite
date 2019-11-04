@@ -25,7 +25,7 @@ export class CommentAdd extends Component {
       name: this.state.name,
       comment: this.state.comment
     };
-    axios.post("http://localhost:5000/comment/add", comment)
+    axios.post("/comment/add", comment)
       .then(res => console.log(res.data));
 
     this.setState({

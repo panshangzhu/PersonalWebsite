@@ -13,7 +13,7 @@ export class Comment extends Component {
     };
   }
   componentDidMount() {
-    axios.get("http://localhost:5000/comment").then(response => {
+    axios.get("/comment").then(response => {
       if (response.data.length > 0) {
         this.setState({
           comments: response.data
