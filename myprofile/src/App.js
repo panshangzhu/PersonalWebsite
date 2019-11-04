@@ -30,7 +30,7 @@ export default function App() {
             <Route path="/life" component={Life} />
             <Route path="/programming" component={Programming} />
             <Route path="/contact" component={Contact} />
-            <Route path="/comment" component={Comment} />
+            <Route path="/comments" component={Comment} />
           </Switch>
         </Router>
         <Footer />

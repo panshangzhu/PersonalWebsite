@@ -38,7 +38,7 @@ function Navigation() {
             <NavLink to="/life">Life</NavLink>
             <NavLink to="/programming">Programming</NavLink>
             <NavLink to="/contact">Contact</NavLink>
-            <NavLink to="/comment">Comment</NavLink>
+            <NavLink to="/comments">Comment</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
