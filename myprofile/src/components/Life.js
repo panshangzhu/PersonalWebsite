@@ -27,7 +27,7 @@ const infos = [
   },{
     id: "Travel",
     image: "./LifeImages/travel.jpg",
-    description: "Travller",
+    description: "Traveller",
     detail: "Travel Experiences of Japan, Switzerland, France, German, Spain, Sweden, and Italy. "
   }
   

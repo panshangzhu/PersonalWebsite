@@ -32,9 +32,14 @@ export class Comment extends Component {
         height: 50vh;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 2vh;
+        padding-bottom: 3vh;
         overflow: scroll;
-      
+      }
+      .content::-webkit-scrollbar{
+        display:none;
+      }
+      .content{
+        -ms-overflow-style:none;
       }
       .box {
         border: 1px solid grey;

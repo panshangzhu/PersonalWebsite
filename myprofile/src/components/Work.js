@@ -34,7 +34,7 @@ const infos = [
   {
     id: "4",
     image: "./WorkImages/school.jpg",
-    description: "September 2012 -- September 2012",
+    description: "September 2012 -- September 2015",
     detail:
       "History Teacher in Chongqing No.1 Middle School, Chongqing China"
   }
