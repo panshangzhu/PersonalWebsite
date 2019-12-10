@@ -57,6 +57,12 @@ export default function Programming() {
   "title":"C# & GUI",
   "text":"A form desgined by c# GUI",
   "link":"https://github.com/panshangzhu/GUI_CSHARP"
+},
+{
+  "header":"Full Stack",
+  "title":"NodeJs+React+OracleDb",
+  "text":"React as front end, NodeJs as backend, OracleDb as dababase",
+  "link":"https://github.com/panshangzhu/OraclerDb-Nodejs-React"
 }]
 
   return (
