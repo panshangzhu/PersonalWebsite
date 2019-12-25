@@ -25,33 +25,33 @@ export default function Programming() {
  const examples=[{
      "header":"Front End",
      "title":"HTML & CSS",
-     "text":"A website design for Huawei",
-     "link":"http://studentweb.cencol.ca/ywang453/Assignment_Huawei_HTML_CSS/"
+     "text":"A website design assignment",
+     "link":"https://panshangzhu.github.io/assignmenthuawei/"
  },{
     "header":"Front End",
     "title":"HTML & CSS",
     "text":"A form desgin for centennial college",
-    "link":"http://studentweb.cencol.ca/ywang453/Assignment_form_html_css/"
+    "link":"https://panshangzhu.github.io/webform/"
 },{
     "header":"Front End",
     "title":"HTML & CSS",
-    "text":"A web design for a real estate company",
-    "link":"http://studentweb.cencol.ca/ywang453/ASSIGNMENT4/home.html"
+    "text":"A web design assignment for a real estate company",
+    "link":"https://panshangzhu.github.io/webproject/"
 },{
     "header":"Front End",
     "title":"HTML & CSS & JS & BOOTSTRAP",
-    "text":"A simple input form",
-    "link":"http://studentweb.cencol.ca/ywang453/JSAssignment01/"
+    "text":"A simple input form with pop up comfirmation page",
+    "link":"https://panshangzhu.github.io/registerForm/#"
 },{
   "header":"Front End",
   "title":"HTML & CSS & JS",
   "text":"A register form with validation",
-  "link":"http://studentweb.cencol.ca/ywang453/JsAssignment03/"
+  "link":"https://panshangzhu.github.io/validationform/"
 },{
   "header":"Front End",
   "title":"HTML & CSS & JS",
   "text":"A simple game by JS",
-  "link":"http://studentweb.cencol.ca/ywang453/JsAssignment04/"
+  "link":"https://panshangzhu.github.io/catchgame/"
 },{
   "header":"Back End",
   "title":"C# & GUI",
