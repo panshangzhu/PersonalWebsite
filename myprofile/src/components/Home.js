@@ -6,24 +6,35 @@ import * as easings from "d3-ease";
 
 const Styles = styled.div`
   font-family: "Open Sans Condensed", sans-serif;
-  background: #5c4830;
-  min-height: 96vh;
-  position: relative;
+  
+ 
+ img{
+   width:100%;
+   height:50%;
+   position:absolute;
+   left:50%;
+   top:50%;
+   transform:translate(-50%,-50%);
+   object-fit:cover;
+   border-radius:2%;
+ }
 
   .overlay {
-    background-color: #000;
-    opacity: 0.4;
+    width:100%;
+    height:100%;
+    background-color: #5c4830;
+    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 1;
+    z-index:-1
   }
   article {
     font-family: "Mansalva", cursive;
     color: white;
-    font-size: 1.2rem;
+    font-size: 60%;
     text-align: center;
     position: absolute;
     top: 60%;
@@ -37,8 +48,8 @@ export default function Home() {
   return (
     <Styles>
       <Spring
-        from={{ opacity: 0, height: "200px" }}
-        to={{ opacity: 1, height: "600px" }}
+        from={{ opacity: 0 }}
+        to={{ opacity: 1}}
         config={{ duration: 2000, easing: easings.easeLinear }}
       >
         {props => <HomePhoto style={props} />}

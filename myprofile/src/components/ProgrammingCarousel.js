@@ -42,13 +42,13 @@ font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 10%;
     margin-left: 10%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
     grid-row-gap: 15px;
     justify-items: center;
   }
   img {
-    width: 80px;
-    height: 80px;
+    width: 4rem;
+    height: 4rem;
   }
 `;
 

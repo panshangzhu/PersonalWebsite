@@ -8,15 +8,20 @@ import WorkCard from "./WorkCard";
 
 const Styles = styled.div`
   background: #5c4830;
-  min-height: 92vh;
+  max-width: 100%;
+  min-height: 100vh;
   color: white;
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 const infos = [
   {
     id: "1",
     image: "./WorkImages/anya.png",
     description: "September 2017 -- January 2018",
-    detail: "Sales Consultant in Anya Hindmarch,London UK"
+    detail: "Sales Consultant in Anya Hindmarch Ledbury Store,London UK"
   },
   {
     id: "2",
@@ -35,8 +40,7 @@ const infos = [
     id: "4",
     image: "./WorkImages/school.jpg",
     description: "September 2012 -- September 2015",
-    detail:
-      "History Teacher in Chongqing No.1 Middle School, Chongqing China"
+    detail: "History Teacher in Chongqing No.1 Middle School, Chongqing China"
   }
 ];
 

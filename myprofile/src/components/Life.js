@@ -9,9 +9,13 @@ import LifeCard from './LifeCard';
 
 const Styles = styled.div`
   background: #5c4830;
-  min-height: 92vh;
+  max-width: 100%;
+  min-height: 100vh;
   color: white;
- 
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 const infos = [
   {

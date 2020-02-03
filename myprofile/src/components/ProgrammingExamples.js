@@ -8,6 +8,7 @@ const Styles = styled.div`
     color: #dfe6e9;
   }
   .card {
+    margin:1rem;
     background: rgba(0, 0, 0, 0.2);
     width: 20rem;
     height: 15rem;

@@ -14,8 +14,7 @@ import styled from "styled-components";
 import Navigation from "./components/Navigation";
 
 const Styles = styled.div`
-  min-width: 1200px;
-  min-height: 600px;
+  
   .spinner-border{
     position:absolute;
     left:50%;

@@ -14,8 +14,9 @@ const Styles = styled.div`
   .grid {
     font-family: "Open Sans Condensed", sans-serif;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    justify-content:center;
+    justify-items:center;
   }
   legend {
     width: 200px;

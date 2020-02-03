@@ -7,15 +7,20 @@ import ProgrammingExamples from "./ProgrammingExamples";
 
 const Styles = styled.div`
   background: #5c4830;
-  min-height: 92vh;
+  max-width: 100%;
+  min-height: 100vh;
   color: white;
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
   h3{
       text-align:center;
   }
   .examples{
-      display:grid;
-      grid-template-columns:1fr 1fr 1fr;
-      grid-row-gap:20px;
+      max-width:100%;
+      display:flex;
+      flex-wrap:wrap;
       justify-content:space-around;
       margin-top:20px;
   }
@@ -69,6 +74,16 @@ export default function Programming() {
   "title":"NodeJs+React+MongoDb",
   "text":"Codes about this website",
   "link":"https://github.com/panshangzhu/PersonalWebsite"
+},{
+  "header":"Front End",
+  "title":"React",
+  "text":"A student list example by React using Hooks",
+  "link":"https://github.com/panshangzhu/studentList"
+},{
+  "header":"Full Stack",
+  "title":"React,NodeJs and JWT",
+  "text":"A simple Authentication made by JWT(backend Code)",
+  "link":"https://github.com/panshangzhu/react-login-backend"
 }]
 
   return (

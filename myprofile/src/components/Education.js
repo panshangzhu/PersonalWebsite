@@ -48,8 +48,15 @@ class Education extends Component {
 
     const Styles = styled.div`
       background: #5c4830;
-      height: 100%;
+      max-width:100%;
+      min-height: 100vh;
       color: white;
+
+      .container{
+        display:flex;
+        flex-direction:column;
+        padding-bottom:1.5rem;
+      }
     `;
     return (
       <div>

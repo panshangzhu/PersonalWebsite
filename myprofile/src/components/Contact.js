@@ -6,14 +6,15 @@ import styled from "styled-components";
 export default function Contact() {
   const Styles = styled.div`
     background: #5c4830;
-    min-height: 92vh;
+    max-width: 100%;
+    min-height: 100vh;
     color: white;
     .container {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:center;
     }
-    
   `;
 
   const contacts = [

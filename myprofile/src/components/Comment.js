@@ -24,8 +24,9 @@ export class Comment extends Component {
 
   render() {
     const Styles = styled.div`
-      background: #5c4830;
-      min-height: 92vh;
+        background: #5c4830;
+    max-width: 100%;
+    min-height: 100vh;
       color:#ecf0f1;
       .content {
         width: 80%;

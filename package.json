@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix myprofile",
-    "start":"node server.js",
-    "server":"nodemon server.js",
-    "client":"npm start --prefix myprofile",
-    "dev":"concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix myprofile && npm run build --prefix myprofile"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix myprofile",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix myprofile && npm run build --prefix myprofile"
   },
   "keywords": [],
   "author": "",

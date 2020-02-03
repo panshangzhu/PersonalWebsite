@@ -3,22 +3,22 @@ import styled from "styled-components";
 import Image from "react-bootstrap/Image";
 
 const Styles = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items:center;
-  align-items: center;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
   width: 100%;
-  height: 150px;
+  margin-top:1rem;
   border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
   border-radius: 10px;
   font-family: "Open Sans Condensed", sans-serif;
+  text-align:center;
 
   img {
     width: 120px;
     height: 120px;
     border: solid 1px #333;
+    align-self:center;
   }
 
 `;
