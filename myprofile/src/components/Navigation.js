@@ -5,10 +5,11 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 const Styles = styled.div`
+  font-family: 'Poppins', sans-serif;
   .navbar {
     background-color: #5c4830;
     z-index: 10;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .mr-auto a {
     color: #bbb;
@@ -17,6 +18,8 @@ const Styles = styled.div`
     &:hover {
       color: white;
     }
+    margin-left:auto;
+    margin-right:auto;
   }
 `;
 
@@ -31,7 +34,7 @@ function Navigation() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto ml">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/education">Education</NavLink>
             <NavLink to="/work">Work</NavLink>
