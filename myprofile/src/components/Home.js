@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Spring } from "react-spring/renderprops";
 import HomePhoto from "./HomePhoto";
+import { NavLink } from "react-router-dom";
+import {Button} from 'react-bootstrap';
 import * as easings from "d3-ease";
 
 const Styles = styled.div`
@@ -34,13 +36,17 @@ const Styles = styled.div`
   article {
     font-family: "Mansalva", cursive;
     color: white;
-    font-size: 60%;
+    font-size: 70%;
     text-align: center;
     position: absolute;
     top: 60%;
     left: 40%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
+  }
+  button{
+    color:lightblue;
+    margin-top:10px;
   }
 `;
 
@@ -66,8 +72,11 @@ export default function Home() {
             <h1>Yipan Wang</h1>
             Hello, Welcome to my Page
             <br />
-            I am currently a software engineering student in centennial college.
+            Please click to see my Programming works!
             <br />
+            <NavLink to="/programming">
+              <Button variant="outline-dark" size='lg'>My Programming Works</Button>
+            </NavLink>
           </article>
         )}
       </Spring>
