@@ -33,7 +33,7 @@ export default function Programming() {
       title: "React Redux Formik Material-UI",
       text:
         "Pan's Store. User can register and Login, add items and change items in his Cart",
-      link: "https://pan-ecemmerce.herokuapp.com/",
+      link: "https://pan-ecommerce.herokuapp.com/",
     },
     {
       header: "Front End",
