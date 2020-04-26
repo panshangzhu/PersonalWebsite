@@ -4,7 +4,7 @@ import * as easings from 'd3-ease';
 import styled from "styled-components";
 import { Spring } from "react-spring/renderprops";
 
-import passion from "../assets/passion.png";
+import passion from "../assets/passion.jpg";
 
 const Styles = styled.div`
   text-align:center;

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import passion from "../assets/passion.png";
+import passion from "../assets/passion.jpg";
 
 const Styles = styled.div`
 
