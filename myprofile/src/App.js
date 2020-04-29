@@ -1,5 +1,4 @@
 import React from "react";
-import Loadable from "react-loadable";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Education from "./components/Education";
@@ -20,6 +19,9 @@ const Styles = styled.div`
     left:50%;
     top:50%;
     transform:translate(-50%,-50%);
+  }
+  .bottomMargin{
+    margin-bottom:15px;
   }
 `;
 
@@ -74,6 +76,7 @@ export default function App() {
           <Route path="/comments" component={Comment} />
         </Switch>
       </Router>
+      <div className="bottomMargin"></div>
       <Footer />
     </Styles>
   );

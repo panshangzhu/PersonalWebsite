@@ -17,10 +17,10 @@ import express from '../assets/FullStack/express.png';
 import oracle from '../assets/FullStack/oracle.png';
 
 const Styles = styled.div`
-font-family: 'Open Sans Condensed', sans-serif; 
+
   .carousel {
     width: 60%;
-    height: 450px;
+    height: 300px;
     background: rgba(0,0,0,0.3);
     margin-left: auto;
     margin-right: auto;
@@ -31,15 +31,15 @@ font-family: 'Open Sans Condensed', sans-serif;
   }
   h3 {
     text-align: center;
-    margin-top: 20px;
-    font-size:3em;
+    margin-top: 30px;
+    font-size:2rem;
     
   }
 
   #images {
     width: 80%;
     height: 100%;
-    margin-top: 10%;
+    margin-top: 2rem;
     margin-left: 10%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
@@ -47,8 +47,8 @@ font-family: 'Open Sans Condensed', sans-serif;
     justify-items: center;
   }
   img {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
   }
 `;
 

@@ -12,37 +12,37 @@ class Education extends Component {
       {
         id: "1",
         image: "./EducationImages/centennial.png",
-        description: "January 2019 -- Present",
+        description: "January 2019 -- April 2020",
         detail:
-          "Studying Software Engineering Technician at Centennial College,Toronto"
+          "Diploma in Software Engineering Technician at Centennial College,Toronto"
       },
       {
         id: "2",
         image: "./EducationImages/surrey.png",
         description: "September 2016 -- September 2017",
         detail:
-          "I got my master degree in International Tourism Management from University of Surrey,Guidford UK"
+          "Master Degree in International Tourism Management from University of Surrey,Guidford UK"
       },
       {
         id: "3",
         image: "./EducationImages/shms.jpg",
         description: "September 2015 -- August 2016",
         detail:
-          " I got Postgraduate Diploma in Operation Management from Swiss Hospitality Management School in Leysin, Switzerland"
+          "Postgraduate Diploma in Operation Management from Swiss Hospitality Management School in Leysin, Switzerland"
       },
       {
         id: "4",
         image: "./EducationImages/ecnu.png",
         description: "September 2008 -- September 2012",
         detail:
-          "I got Bachelor's Degree in History from East China Normal University in Shanghai, China"
+          "Bachelor's Degree in History from East China Normal University in Shanghai, China"
       },
       {
         id: "5",
         image: "./EducationImages/jkoku.jpg",
         description: "July 2013 -- August 2013",
         detail:
-          "I took Japanese language course from J-Kokusai Japanese School in Osaka, Japan"
+          "Japanese language course from J-Kokusai Japanese School in Osaka, Japan"
       }
     ];
 

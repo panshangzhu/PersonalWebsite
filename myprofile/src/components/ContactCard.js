@@ -3,12 +3,10 @@ import Card from "react-bootstrap/Card";
 import styled from "styled-components";
 
 const Styles = styled.div`
-  width: 20vw;
-  height: 20vh;
   margin: 10px;
   img {
-    width: 20vw;
-    height: 20vh;
+    width: 250px;
+    height:200px;
   }
   .card:hover{
     transform:scale(1.2);

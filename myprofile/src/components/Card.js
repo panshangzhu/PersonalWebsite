@@ -11,6 +11,7 @@ const Styles = styled.div`
   border: 1px solid black;
   border-radius: 10px;
   font-family: "Open Sans Condensed", sans-serif;
+  margin:8px;
 
   img {
     width: 120px;

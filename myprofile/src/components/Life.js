@@ -27,7 +27,7 @@ const infos = [
     id: "Volunteer",
     image: "./LifeImages/expo.jpg",
     description: "August 2010",
-    detail: "Volunteer in Shanghai Expo, guiding tourists in Chinese Pavilion."
+    detail: "Volunteer in Shanghai Expo"
   },{
     id: "Travel",
     image: "./LifeImages/travel.jpg",

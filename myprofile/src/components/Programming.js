@@ -29,6 +29,12 @@ const Styles = styled.div`
 export default function Programming() {
   const examples = [
     {
+      header: "Full Stack",
+      title: "React,NodeJs and JWT",
+      text: "A simple Authentication made by JWT(backend Code)",
+      link: "https://github.com/panshangzhu/react-login-backend",
+    },
+    {
       header: "React-Redux",
       title: "React Redux Formik Material-UI",
       text:
@@ -43,9 +49,33 @@ export default function Programming() {
     },
     {
       header: "Front End",
+      title: "React",
+      text: "A student list example by React using Hooks",
+      link: "https://github.com/panshangzhu/studentList",
+    },
+    {
+      header: "Front End",
       title: "React & TypeScript & Antd",
       text: "Pan's Todo List Application",
       link: "https://panshangzhu.github.io/TodoList-TypeScript-Antd-/",
+    },
+    {
+      header: "Full Stack",
+      title: "NodeJs+React+OracleDb",
+      text: "React as front end, NodeJs as backend, OracleDb as dababase",
+      link: "https://github.com/panshangzhu/OraclerDb-Nodejs-React",
+    },
+    {
+      header: "Full Stack",
+      title: "NodeJs+React+MongoDb",
+      text: "Codes about this website",
+      link: "https://github.com/panshangzhu/PersonalWebsite",
+    },
+    {
+      header: "Front End",
+      title: "HTML & CSS & JS",
+      text: "A simple game by JS",
+      link: "https://panshangzhu.github.io/catchgame/",
     },
     {
       header: "Front End",
@@ -77,41 +107,12 @@ export default function Programming() {
       text: "A register form with validation",
       link: "https://panshangzhu.github.io/validationform/",
     },
-    {
-      header: "Front End",
-      title: "HTML & CSS & JS",
-      text: "A simple game by JS",
-      link: "https://panshangzhu.github.io/catchgame/",
-    },
+
     {
       header: "Back End",
       title: "C# & GUI",
       text: "A form desgined by c# GUI",
       link: "https://github.com/panshangzhu/GUI_CSHARP",
-    },
-    {
-      header: "Full Stack",
-      title: "NodeJs+React+OracleDb",
-      text: "React as front end, NodeJs as backend, OracleDb as dababase",
-      link: "https://github.com/panshangzhu/OraclerDb-Nodejs-React",
-    },
-    {
-      header: "Full Stack",
-      title: "NodeJs+React+MongoDb",
-      text: "Codes about this website",
-      link: "https://github.com/panshangzhu/PersonalWebsite",
-    },
-    {
-      header: "Front End",
-      title: "React",
-      text: "A student list example by React using Hooks",
-      link: "https://github.com/panshangzhu/studentList",
-    },
-    {
-      header: "Full Stack",
-      title: "React,NodeJs and JWT",
-      text: "A simple Authentication made by JWT(backend Code)",
-      link: "https://github.com/panshangzhu/react-login-backend",
     },
   ];
 
@@ -120,7 +121,7 @@ export default function Programming() {
       <Jumbotron />
       <Container>
         <ProgrammingCarousel />
-        <h3>Some Examples of my programming study</h3>
+        <h3>Pan Projects</h3>
         <div className="examples">
           {examples.map((example) => (
             <ProgrammingExamples example={example} />
