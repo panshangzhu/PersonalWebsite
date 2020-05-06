@@ -30,22 +30,22 @@ export default function Programming() {
   const examples = [
     {
       header: "Full Stack",
-      title: "React,NodeJs and JWT",
+      title: "NodeJs and JWT",
       text: "A simple Authentication made by JWT(backend Code)",
       link: "https://github.com/panshangzhu/react-login-backend",
-    },
-    {
-      header: "React-Redux",
-      title: "React Redux Formik Material-UI",
-      text:
-        "Pan's Store. User can register and Login, add items and change items in his Cart",
-      link: "https://pan-ecommerce.herokuapp.com/",
     },
     {
       header: "Front End",
       title: "React Hook& useContext & useReducer",
       text: "Pan's count control",
-      link: "https://github.com/panshangzhu/react-useContext-useReducer-demo",
+      link: "https://panshangzhu.github.io/react-useContext-useReducer-demo/",
+    },
+    {
+      header: "React-Redux",
+      title: "React Redux Formik Material-UI",
+      text:
+        "Pan's Store. User can register and Login, add items and change items in his Cart,Heroku Deployed",
+      link: "https://pan-ecommerce.herokuapp.com/",
     },
     {
       header: "Front End",

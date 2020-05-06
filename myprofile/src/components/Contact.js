@@ -32,6 +32,11 @@ export default function Contact() {
       title: "Wechat",
       image: "./ContactPictures/wechat.png",
       link: "https://photos.app.goo.gl/9w2UoVHaU2RiBdbi7"
+    },
+    {
+      title: "Github",
+      image: "./ContactPictures/github.png",
+      link: "https://github.com/panshangzhu?tab=repositories"
     }
   ];
   return (
