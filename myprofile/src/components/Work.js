@@ -19,28 +19,28 @@ const Styles = styled.div`
 const infos = [
   {
     id: "1",
+    image: "./WorkImages/mark2win.png",
+    description: "Oct 2019 -- Present",
+    detail: "Software Developer in Mark2win IT group, Toronto, Canada"
+  },
+  {
+    id: "2",
     image: "./WorkImages/anya.png",
     description: "September 2017 -- January 2018",
     detail: "Sales Consultant in Anya Hindmarch Ledbury Store,London UK"
   },
   {
-    id: "2",
+    id: "3",
     image: "./WorkImages/china.JPG",
     description: "May 2017 -- September 2018",
     detail: "Tour Operator Intern in China Holiday Travel Agence, London UK"
   },
   {
-    id: "3",
+    id: "4",
     image: "./WorkImages/excelsior.jpg",
     description: "Feburary 2016 -- August 2016",
     detail:
       "Receptionist and Night Audit Intern in Hotel Excelsior, Geneva Switzerland "
-  },
-  {
-    id: "4",
-    image: "./WorkImages/school.jpg",
-    description: "September 2012 -- September 2015",
-    detail: "History Teacher in Chongqing No.1 Middle School, Chongqing China"
   }
 ];
 
