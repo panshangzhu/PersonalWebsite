@@ -66,6 +66,12 @@ export default function Programming() {
       link: "https://github.com/panshangzhu/OraclerDb-Nodejs-React",
     },
     {
+      header: "Front End",
+      title: "Angry Balls",
+      text: "Css animation",
+      link: "https://github.com/panshangzhu/AngryBalls",
+    },
+    {
       header: "Full Stack",
       title: "NodeJs+React+MongoDb",
       text: "Codes about this website",
