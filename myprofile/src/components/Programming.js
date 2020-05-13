@@ -29,6 +29,12 @@ const Styles = styled.div`
 export default function Programming() {
   const examples = [
     {
+      header: "Front End",
+      title: "React, Material-UI, TypeScript",
+      text: "Pan's Calculator, A simple calculator application",
+      link: "https://panshangzhu.github.io/panCalculator/",
+    },
+    {
       header: "Full Stack",
       title: "NodeJs and JWT",
       text: "A simple Authentication made by JWT(backend Code)",
