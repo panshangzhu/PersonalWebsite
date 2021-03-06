@@ -19,24 +19,30 @@ const Styles = styled.div`
 const infos = [
   {
     id: "1",
-    image: "./WorkImages/mark2win.png",
-    description: "Oct 2019 -- Present",
-    detail: "Software Developer in Mark2win IT group, Toronto, Canada"
+    image: "./WorkImages/serti.jpg",
+    description: "June 2020 -- present",
+    detail: "Web Developer in serti informatique, Montreal, Canada"
   },
   {
     id: "2",
+    image: "./WorkImages/mark2win.png",
+    description: "June 2019 -- June 2020",
+    detail: "Software Developer in Mark2win IT group, Toronto, Canada"
+  },
+  {
+    id: "3",
     image: "./WorkImages/anya.png",
     description: "September 2017 -- January 2018",
     detail: "Sales Consultant in Anya Hindmarch Ledbury Store,London UK"
   },
   {
-    id: "3",
+    id: "4",
     image: "./WorkImages/china.JPG",
     description: "May 2017 -- September 2018",
     detail: "Tour Operator Intern in China Holiday Travel Agence, London UK"
   },
   {
-    id: "4",
+    id: "5",
     image: "./WorkImages/excelsior.jpg",
     description: "Feburary 2016 -- August 2016",
     detail:
