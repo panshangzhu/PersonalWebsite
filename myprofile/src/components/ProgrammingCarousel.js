@@ -8,6 +8,7 @@ import js from '../assets/FrontEnd/js.png';
 import react from "../assets/FrontEnd/react.jpg";
 import materialUi from '../assets/FrontEnd/materialUi.png'
 import bootstrap from "../assets/FrontEnd/bootstrap.png";
+import vue from "../assets/FrontEnd/vue.jpg";
 import webpack from "../assets/FrontEnd/webpack.png";
 import csharp from '../assets/BackEnd/csharp.jpg';
 import java from '../assets/BackEnd/java.png';
@@ -73,6 +74,7 @@ export default function ProgrammingCarousel() {
             <Image className="w-10 " src={css} alt="css" roundedCircle />
             <Image className="w-10 " src={js} alt="js" roundedCircle />
             <Image className="w-10 " src={react} alt="react" roundedCircle />
+            <Image className="w-10 " src={vue} alt="react" roundedCircle />
             <Image className="w-10 " src={bootstrap} alt="bootstrap" roundedCircle />
             <Image className="w-10 " src={webpack} alt="webpack" roundedCircle />
             <Image className="w-10 " src={materialUi} alt="materialUi" roundedCircle />
