@@ -8,7 +8,6 @@ import Programming from "./components/Programming";
 import Contact from "./components/Contact";
 import Comment from './components/Comment'
 import Footer from "./components/Footer";
-import Spinner from "react-bootstrap/Spinner";
 import styled from "styled-components";
 import Navigation from "./components/Navigation";
 

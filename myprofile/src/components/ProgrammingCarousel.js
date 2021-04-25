@@ -23,7 +23,7 @@ const Styles = styled.div`
 
   .carousel {
     width: 65%;
-    height: 280px;
+    height: 300px;
     background: rgba(0,0,0,0.3);
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +33,7 @@ const Styles = styled.div`
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 576px) {
     .carousel{
       width: 90%;
       height: 350px;
